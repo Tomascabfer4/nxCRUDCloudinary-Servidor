@@ -3,6 +3,12 @@ const config = {
   plugins: {
     tailwindcss: {},
   },
+
+  experimental: {
+    serverActions: {
+      bodySizeLimit: "10mb",
+    },
+  },
 };
 
 export default config;
